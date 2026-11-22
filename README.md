@@ -38,9 +38,7 @@ A small website that shows how busy the Dalplex (Dalhousie University's athletic
 2. Copy config.example.php to a new file called config.php.
 3. Open config.php and replace PRIVATE_KEY with your real key:
 
-   return [
-       'besttime_api_key' => 'your-key-here',
-   ];
+   return [       'besttime_api_key' => 'your-key-here',   ];
 
 4. Do not share config.php or upload it to GitHub (it should be in .gitignore).
 
@@ -64,4 +62,4 @@ Note: The page must be run through a server (not by double-clicking the HTML fil
 
 - Busyness data from BestTime (https://besttime.app)
 - Colours inspired by Dalhousie University branding
-- Made for a school project
+
